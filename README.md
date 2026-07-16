@@ -30,7 +30,7 @@ The engine is then calibrated against a real SPY options chain to extract implie
 
 ## Running this notebook
 
-Open it in Google Colab using the link above, or upload it to Colab directly. All dependencies are installed in the first cell. The calibration section loads from the saved CSV snapshot rather than pulling live data, so results will match what is shown in the notebook regardless of when you run it.
+Open it in Google Colab using the link in the .ipynb file, or upload it to Colab directly. All dependencies are installed. The calibration section loads from the saved CSV snapshot rather than pulling live data, so results will match what is shown in the notebook regardless of when you run it.
 
 An optional API demo near the end of the notebook spins up a FastAPI service and tunnels it with ngrok for a live request and response. This requires a free ngrok account and auth token, and the public URL will not remain active after the Colab session ends. The API code itself is fully functional and can be run in any standard Python environment.
 

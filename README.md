@@ -1,4 +1,4 @@
-# Multi-Method Options Pricing Engine with Greeks Analysis
+# Multi-Method Options Pricing Engine with Greeks Analysis, Calibration, and API Demo
 
 A comparative implementation of three option pricing methods: closed-form Black-Scholes, Monte Carlo simulation with variance reduction, and a binomial tree with Richardson extrapolation. The project benchmarks convergence and computational cost across methods, calibrates against real SPY options market data, and includes a working test suite and a small API layer.
 
